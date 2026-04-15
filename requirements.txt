@@ -1,0 +1,10 @@
+flask==3.1.0
+flask-cors==5.0.1
+youtube-transcript-api
+google-api-python-client
+transformers
+torch
+sentencepiece
+protobuf
+accelerate
+deep-translator
