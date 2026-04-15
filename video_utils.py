@@ -5,7 +5,8 @@ video_utils.py — Utility functions for extracting YouTube video IDs and metada
 import re
 from googleapiclient.discovery import build
 
-YOUTUBE_API_KEY = "AIzaSyBOkOTx6cLKCR_wjW9de6VwAXcFwLAIpL8"
+import os
+API_KEY = os.getenv("API_KEY")
 
 # Regex patterns covering all common YouTube URL formats
 YOUTUBE_URL_PATTERNS = [
