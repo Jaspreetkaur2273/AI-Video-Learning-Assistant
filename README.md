@@ -1,4 +1,4 @@
-# 🎓 AI Video Learning Assistant
+# AI Video Learning Assistant
 
 A full-stack AI-powered web application that transforms YouTube videos into structured learning content — **summaries, key points, detailed notes, and interactive quizzes**.
 
@@ -6,7 +6,7 @@ Built with **React + Tailwind CSS** (frontend) and **Flask + Hugging Face Transf
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔗 **YouTube URL Input** — Paste any YouTube link
 - 📝 **Auto Transcript** — Fetches captions (with Whisper fallback)
@@ -22,7 +22,7 @@ Built with **React + Tailwind CSS** (frontend) and **Flask + Hugging Face Transf
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AI Tools Project/
@@ -62,7 +62,7 @@ AI Tools Project/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -90,7 +90,7 @@ python app.py
 
 The backend will start on **http://localhost:5000**.
 
-> ⚠️ **First request will be slow** — the AI models (BART + Flan-T5) are downloaded on first use (~1-2 GB). Subsequent requests are fast.
+> **First request will be slow** — the AI models (BART + Flan-T5) are downloaded on first use (~1-2 GB). Subsequent requests are fast.
 
 ### 2. Frontend Setup
 
@@ -117,7 +117,7 @@ The frontend will start on **http://localhost:3000**.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer      | Technology                              |
 | ---------- | --------------------------------------- |
@@ -129,7 +129,7 @@ The frontend will start on **http://localhost:3000**.
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint              | Description                      |
 | ------ | --------------------- | -------------------------------- |
@@ -147,6 +147,6 @@ curl -X POST http://localhost:5000/api/summarize-video \
 
 ---
 
-## 📄 License
+## License
 
 MIT License — Free for educational and personal use.
